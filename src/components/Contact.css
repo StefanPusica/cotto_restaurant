@@ -1,0 +1,93 @@
+.Contact {
+    background-color: var(--color-high-red);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact-holder {
+    width: 100%;
+}
+
+.form-holder {
+    width: 100%;
+    background-image: url(../assets/contact-glasses.png);
+    margin: 5rem 0 10rem 0;
+    padding: 5rem 0 5rem 0;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+}
+
+.form {
+    width: 60%;
+    padding: 3rem 0 3rem 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.form input::placeholder {
+    color: var(--color-white);
+    font-size: 1.1rem;
+}
+
+.form input {
+    width: 90%;
+    outline: none;
+    background-color: transparent;
+    border: 2px solid var(--color-orange1);
+    border-radius: 5px;
+    padding: 1.2rem 0 1.2rem 1.2rem;
+}
+
+.form input:focus {
+    color: var(--color-white);
+}
+
+
+.form textarea {
+    width: 90%;
+    height: 7rem;
+    background-color: transparent;
+    border: 2px solid var(--color-orange1);
+    border-radius: 5px;
+    padding: 1.2rem 0 0 1.2rem;
+    color: var(--color-white);
+}
+
+.form textarea::placeholder {
+    color: var(--color-white);
+    font-size: 1.1rem;
+}
+
+.fullName {
+    width: 90%;
+    display: flex;
+    gap: 1rem;
+}
+
+.fullName input {
+    width: 100%;
+}
+
+.contactBtn {
+    padding: 1rem 2rem 1rem 2rem;
+    border: none;
+    border-radius: 5px;
+    background-color: var(--color-orange1);
+    color: var(--color-high-red);
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+
+.contactBtn:hover {
+    cursor: pointer;
+}
+
+@media screen and (max-width: 900px) {
+    .form {
+        width: 100%;
+    }
+}

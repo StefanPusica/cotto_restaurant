@@ -1,0 +1,157 @@
+.MenuCards {
+    width: 90%;
+    margin: 0 auto;
+    padding: 5rem 0 10rem 0;
+}
+
+.MenuCards-holder {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.cardd {
+    background-color: #3b1717;
+    border-radius: 10px;
+    overflow: hidden;
+    height: 30rem;
+    width: 25%;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.card-image {
+    width: 100%;
+    height: 50%;
+
+}
+
+.cardd1 .card-image {
+   background-image: url(../assets/stek.jpg);
+   background-position: center;
+   background-size: cover; 
+}
+
+.cardd2 .card-image {
+    background-image: url(../assets/palacinke.jpg);
+    background-position: center;
+    background-size: cover; 
+    position: relative;
+}
+
+.card-image-overlay {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--color-orange1);
+    width: 100%;
+    padding: 0.7rem;
+    color: var(--color-background);
+    font-weight: 700;
+    font-size: 1.5rem;
+    letter-spacing: 1px;
+    right: -25%;
+    top: 25%;
+
+    transform: rotate(45deg);
+}
+
+.cardd3 .card-image {
+    background-image: url(../assets/mike-PxJ9zkM2wdA-unsplash.jpg);
+    background-position: center;
+    background-size: cover; 
+}
+
+.card-text-content {
+    padding: 2rem 2rem;
+}
+
+.card-text-content h1 {
+    font-size: 1.5rem;
+    color: var(--color-orange1);
+}
+
+.card-time {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    font-size: 1.5rem;
+    color: var(--color-orange1);
+    margin-top: 2rem;
+}
+
+.card-time p {
+    font-weight: 300;
+}
+
+.rating-stars {
+    margin-top: 2rem;
+    font-size: 2rem;
+    color: var(--color-orange1);
+}
+
+@media screen and (max-width: 1350px) { 
+    .cardd {
+        width: 30%;
+    }  
+}
+
+@media screen and (max-width: 1150px) {
+    .card-image-overlay {
+        top: 15%;
+        right: -27%;
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width: 850px) {
+    .MenuCards-holder {
+        flex-direction: column;
+        align-items: center;
+        gap: 2rem;
+    }
+
+    .cardd {
+        width: 50%;
+    } 
+
+    .card-image-overlay {
+        top: 30%;
+        font-size: 1.3rem;
+    }
+}
+
+@media screen and (max-width: 850px) {
+    .cardd {
+        width: 70%;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .card-image-overlay {
+        top: 24%;
+        font-size: 1.3rem;
+    }
+}
+
+@media screen and (max-width: 460px) {
+    .card-image-overlay {
+        top: 20%;
+        font-size: 1.3rem;
+    }
+}
+
+@media screen and (max-width: 414px) {
+    .card-image-overlay {
+        top: 11%;
+        font-size: 1.1rem;
+    }
+
+    .card-text-content h1 {
+        font-size: 1.3rem;
+    }
+
+    .rating-stars {
+        font-size: 1.5rem;
+    }
+}

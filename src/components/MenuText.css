@@ -1,0 +1,61 @@
+.MenuText {
+    width: 90%;
+    margin: 0 auto;
+    padding: 4rem 0 4rem 0;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.menu-header {
+    font-size: 3rem;
+    font-weight: 300;
+    color: var(--color-orange1);
+    text-align: center;
+}
+
+.menu-describe-text {
+    font-size: 1.2rem;
+    font-weight: 300;
+    font-style: italic;
+    letter-spacing: 0;
+    text-align: center;
+    color: var(--color-orange1);
+    margin-bottom: 2rem;
+}
+
+.MenuText-line {
+    margin-bottom: 2rem; 
+}
+
+.MenuText-line img{
+    width: 50px;
+}
+
+.MenuText-two-texts {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    text-align: center;
+    width: 80%;
+}
+
+.MenuText-two-texts p {
+    font-size: 1.5rem;
+    color: var(--color-orange1);
+}
+
+.MenuText-two-texts2 {
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    text-align: center;
+    width: 80%;
+}
+
+.MenuText-two-texts2 p {
+    font-size: 1.5rem;
+    color: var(--color-orange1);
+}

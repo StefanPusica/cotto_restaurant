@@ -1,0 +1,104 @@
+.ONamaPart2 {
+    padding: 0 0 15rem 0;
+    background-color: var(--color-high-red);
+}
+
+.ONamaPart2-Banner {
+    background-image: url(../assets/aboutBanner.png);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.ONamaPart2-Banner-holder {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    padding: 5rem 0 5rem 0;
+}
+
+.ONamaPart2-Banner-holder h1 {
+    color: var(--color-white);
+    font-size: 4rem;
+    font-weight: 300;
+    margin-bottom: 2rem;
+}
+
+.ONamaPart2-Banner-holder-imageAndText {
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+    margin-bottom: 1rem;
+}
+
+.ONamaPart2-Banner-holder-imageAndText img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.ONamaPart2-Banner-holder-imageAndText p {
+    font-size: 1.5rem;
+    color: var(--color-white);
+    font-weight: 500;
+    line-height: 1.1;
+}
+
+.circle-navigator {
+    display: flex;
+    gap: 1rem;
+    align-self: center;
+}
+
+.circle-navigator .circle {
+    height: 2rem;
+    width: 2rem;
+    border-radius: 50%;
+    background-color: transparent;
+    border: 2px solid var(--color-orange1);
+}
+
+.circle-navigator .circle:hover {
+    cursor: pointer;
+}
+
+.circle-navigator .circle.active {
+    background-color: var(--color-orange1);
+}
+
+@media screen and (max-width: 900px) {
+    .ONamaPart2-Banner-holder {
+        width: 90%;
+    }
+
+    .ONamaPart2-Banner-holder-imageAndText {
+        gap: 1.5rem
+    }
+
+    .ONamaPart2-Banner-holder-imageAndText img {
+        width: 100px;
+        height: 100px;
+    }
+}
+
+@media screen and (max-width: 630px) {
+    .ONamaPart2-Banner-holder h1 {
+        font-size: 3rem;
+    }
+
+    .ONamaPart2-Banner-holder-imageAndText p {
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width: 470px) {
+    .ONamaPart2-Banner-holder h1 {
+        font-size: 2rem;
+    }
+
+    .ONamaPart2-Banner-holder-imageAndText p {
+        font-size: 0.9rem;
+    }
+}

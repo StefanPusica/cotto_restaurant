@@ -1,0 +1,144 @@
+.ONama {
+    background-color: var(--color-high-red);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5rem 0;
+}
+
+.ONama-holder {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.left-side {
+    width: 45%;
+}
+
+.left-side-images-holder {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    padding: 2rem 0;
+}
+
+.onama-card {
+    width: 200px;
+    height: 250px;
+}
+
+.right-side {
+    width: 45%;
+}
+
+.card1 {
+    background-image: url(../assets/zacini.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.card2 {
+    background-image: url(../assets/nozViljuska.jpg);
+    background-position: center;
+    background-size: cover;
+    transform: translateY(-2rem);
+}
+
+.card3 {
+    background-image: url(../assets/banner.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.card4 {
+    background-image: url(../assets/dekoracija.jpg);
+    background-position: center;
+    background-size: cover;
+    transform: translateY(-2rem);
+}
+
+.right-side h1 {
+    color: var(--color-orange1);
+    font-size: 4rem;
+    font-weight: 300;
+    margin-bottom: 2rem;
+}
+
+.right-side p {
+    color: var(--color-white);
+    font-size: 1.3rem;
+    color: var(--color-orange1);
+    line-height: 1.1;
+}
+
+.firstP {
+    margin-bottom: 1.5rem;
+}
+
+.lastP {
+    margin-bottom: 2rem;
+}
+
+.onama-btn-hodler {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    color: var(--color-orange1);
+    font-size: 2.5rem;
+}
+
+.onama-btn-hodler a {
+    color: var(--color-orange1);
+    text-decoration: none;
+    font-weight: 700;
+}
+
+@media screen and (max-width: 1050px) {
+    .ONama {
+    }
+
+    .ONama-holder {
+        flex-direction: column;
+    }
+
+    .left-side {
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 2rem;
+    }
+    
+    .left-side-images-holder {
+        max-width: 70%;
+        justify-content: center;
+        margin: 0 auto;
+    }
+    
+    .right-side {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .ONama {
+        padding: 5rem 0 9rem 0;
+    }
+
+    .onama-card {
+        width: 150px;
+        height: 200px;
+    }
+}
+
+@media screen and (max-width: 517px) {
+    .ONama {
+        padding: 5rem 0 10rem 0;
+    }
+
+    .onama-card {
+        width: 90px;
+        height: 130px;
+    }
+}

@@ -1,0 +1,43 @@
+.TopNav {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: var(--color-orange1);
+    padding: 0.7rem 0;
+}
+
+.container-top-nav {
+    width: 90%;
+}
+
+.top-nav-holder {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.top-nav-holder-left-side {
+    display: flex;
+    gap: 1rem;
+}
+
+
+.top-nav-holder-left-side-work-time,
+.top-nav-holder-left-side-phone,
+.top-nav-holder-right-side-instagram {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    color: var(--color-white);
+}
+
+.icons-top-nav {
+    font-size: 1.3rem;
+}
+
+@media screen and (max-width: 345px) {
+    .top-nav-holder-left-side-phone p {
+        display: none;
+    }
+}

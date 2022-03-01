@@ -1,0 +1,23 @@
+.home-background {
+    background-image: url(./assets/bannerLayer2.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.page-heading {
+    padding-top: 3rem;
+    color: var(--color-orange1);
+    font-size: 4rem;
+    text-align: center;
+    font-weight: 300;
+}
+
+.describe-text {
+    font-size: 1.2rem;
+    font-weight: 300;
+    font-style: italic;
+    letter-spacing: 0;
+    text-align: center;
+    color: var(--color-orange1);
+    margin-bottom: 2rem;
+}
