@@ -9,7 +9,7 @@ import './Menu.css'
  class Menu extends Component {
   render() {
     return (
-      <div className='Menu'>
+      <div className='Menu' id='meni'>
           <MenuText />
           <MenuCards />
           <MenuMenu />

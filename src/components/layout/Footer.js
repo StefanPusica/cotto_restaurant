@@ -28,9 +28,9 @@ export default class Footer extends Component {
                 </div>
                 <div className='footer-middle'>
                     <div className='footer-middle-line1'></div>
-                    <p>“Lorem Ipsum is simply dummy text of the printing 
-                        and typesetting industry. Lorem Ipsum has been the industry's
-                        standard dummy text ever since the 1500s”
+                    <p>“Mesto dostojno najzahtevnijih poznavalaca i uživalaca u hrani, istovremeno intimno i luksuzno,
+                         a dovoljno da zadovolji i one sa najistančanijim ukusom. Verujemo u savršen spoj uparivanja hrane i pića,
+                          zato je naš profesionalan tim pažljivo odabrao vinsku kartu sa preko 100 prestižnih italijanskih vina.”
                     </p>
                     <div className='footer-middle-line2'></div>
                 </div>

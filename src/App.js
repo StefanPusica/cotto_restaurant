@@ -4,6 +4,8 @@ import TopNav from './components/layout/TopNav';
 import Navbar from './components/layout/Navbar';
 import Footer from './components/layout/Footer';
 
+
+
 import Home from './components/Home';
 import OnamaHolderComponent from './components/OnamaHolderComponent';
 import Gallery from './components/Gallery';
@@ -11,23 +13,40 @@ import Location from './components/Location';
 import Menu from './components/Menu';
 import Contact from './components/Contact';
 
+import ReactWhatsapp from 'react-whatsapp'
+
+import { IoCaretUpOutline } from "react-icons/io5";
+import { FaWhatsapp } from "react-icons/fa";
+import { Provider } from './context/AboutContext';
+
 function App() {
+
   return (
-    <Router>
-      <div className="App">
-        <TopNav />
-        <Navbar />
-          <Routes>
-            <Route exact path="/" element={<Home />} />
-            <Route exact path="/onama" element={<OnamaHolderComponent />} />
-            <Route exact path="/galerija" element={<Gallery />} />
-            <Route exact path="/lokacija" element={<Location />} />
-            <Route exact path="/kontakt" element={<Contact />} />
-            <Route exact path="/meni" element={<Menu />} />
-          </Routes>
-        <Footer />  
-      </div>
-    </Router>
+    <Provider>
+      <Router>
+        <div className="App">
+          <div className='navigation'>
+            <TopNav />
+            <Navbar />
+          </div>
+              <Home />
+              <OnamaHolderComponent />
+              <Gallery />
+              <Location />
+              <Contact />
+              <Menu />
+          <Footer /> 
+          <a href='#top'>
+            <div className='modal-button-up'>
+              <IoCaretUpOutline className='modal-button-up-icons' />
+            </div>
+            <ReactWhatsapp className="modal-whats-app" number="+381694455451" message="">
+              <FaWhatsapp className='modal-whats-app-icons' />
+            </ReactWhatsapp>
+          </a>
+        </div>
+      </Router>
+    </Provider>
   );
 }
 

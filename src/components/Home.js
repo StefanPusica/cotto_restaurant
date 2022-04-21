@@ -5,7 +5,7 @@ import './Home.css';
 class Home extends Component {
   render() {
     return (
-      <div className='Home'>
+      <div className='Home' id='pocetna'>
         <div className='banner'>
             <h1>Hedonizam & Renesansa</h1>
             <p>Mesto dostojno najzahtevnijih poznavalaca i
@@ -13,7 +13,7 @@ class Home extends Component {
                Gastronomska ponuda najvećeg tržnog centra u zemlji i na Balkanu, Galerija BW  bogatija je za novi ekskluzivan 
                restoran autentičnog koncepta italijanske kuhinje i stek ponude - COTTO.
             </p>
-            <Link to='/onama'className='homeBtn'>Detaljnije</Link>
+            <a href='#onama'className='homeBtn'>Detaljnije</a>
         </div>
       </div>
     )

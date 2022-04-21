@@ -5,7 +5,7 @@ import ONamaPart2 from './ONamaPart2';
  class OnamaHolderComponent extends Component {
   render() {
     return (
-      <div>
+      <div id='onama'>
           <ONama />
           <ONamaPart2 />
       </div>

@@ -1,12 +1,11 @@
 .Home {
-    height: 80.5vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url(../assets/bannerLayer2.jpg);
+    background-image: url(../assets/bannerLayer3.jpg);
     background-position: center;
     background-size: cover;
-    padding: 0 0 5rem 0;
+    padding: 10rem 0 10rem 0;
 }
 
 .banner {
@@ -40,7 +39,7 @@
     font-weight: 500;
 }
 
-@media screen and (max-width: 540px) {
+@media screen and (max-width: 760px) {
     .banner h1 {
         font-size: 3rem;
         margin-bottom: 1rem;
@@ -52,7 +51,11 @@
     
 }
 
-@media screen and (max-width: 390px) {
+@media screen and (max-width: 560px) {
+    .Home {
+        padding: 6rem 0 6rem 0;
+    }
+
     .banner h1 {
         font-size: 2.5rem;
         margin-bottom: 0.8rem;
@@ -61,15 +64,27 @@
     .banner p {
         font-size: 1.2rem;
     }
+}
 
-    @media screen and (max-width: 310px) {
+
+@media screen and (max-width: 470px) {
         .banner h1 {
             font-size: 2.2rem;
             margin-bottom: 0.8rem;
         }
 
         .banner p {
-            font-size: 1rem;
+            font-size: 1.2rem;
         }
+}
+
+@media screen and (max-width: 380px) {
+    .banner h1 {
+        font-size: 2.2rem;
+        margin-bottom: 0.5rem;
+    }
+
+    .banner p {
+        font-size: 1.2rem;
     }
 }

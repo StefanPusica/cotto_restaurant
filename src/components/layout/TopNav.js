@@ -8,7 +8,7 @@ import './TopNav.css';
 
 export default function TopNav() {
   return (
-    <div className='TopNav'>
+    <div className='TopNav' id='top'>
         <div className='container-top-nav'>
             <div className='top-nav-holder'>
                 <div className='top-nav-holder-left-side'>
@@ -17,8 +17,8 @@ export default function TopNav() {
                         <p>10:00h - 22:00h</p>
                     </div>
                     <div className='top-nav-holder-left-side-phone'>
-                        <IoCallOutline className='icons-top-nav' />
-                        <p>064555555</p>
+                        <a href='tel:064555555'><IoCallOutline className='icons-top-nav' /></a>
+                        <a href='tel:064555555'><p>064555555</p></a>
                     </div>
                 </div>
                 <div className='top-nav-holder-right-side'>

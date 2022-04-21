@@ -35,7 +35,7 @@ import { HiArrowNarrowRight } from "react-icons/hi";
                 Sa autentičnim konceptom italijanske kuhinje i stek ponude sa premium selekcijom vina, COTTO će veoma brzo postati sinonim za pravo gastronomsko iskustvo u srcu Beograda.
                 </p>
                 <div className='onama-btn-hodler'>
-                    <Link to='/meni' className='onamaBtn'>Buon appetito</Link>
+                    <a href='#BuonAppetito' className='onamaBtn'>Buon appetito</a>
                     <HiArrowNarrowRight />
                 </div>
                 

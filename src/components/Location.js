@@ -9,7 +9,7 @@ import { IoTimeOutline } from "react-icons/io5";
  class Location extends Component {
   render() {
     return (
-      <div className='Location'>
+      <div className='Location' id='lokacija'>
           <div className='location-holder'>
                 <h1 className='page-heading'>Kako do nas?</h1>
                 <p className='describe-text'>-Beograd na vodi, Galerija BW - Sava Avenija</p>
@@ -25,7 +25,7 @@ import { IoTimeOutline } from "react-icons/io5";
           <div className='location-cards'>
               <div className='location-cards-holder'>
                 <div className='location-card l-card-1'>
-                    <p className='location-card-text'>Bulevar Vudro Vilsona 12</p>
+                    <p className='location-card-text'>Bulevar Vudro<br></br> Vilsona 12</p>
                     <IoLocationOutline className='location-icon-group' />
                 </div>
                 <div className='location-card l-card-2'>

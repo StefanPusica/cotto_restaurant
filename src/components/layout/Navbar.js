@@ -19,15 +19,15 @@ class Navbar extends Component {
                 <img src={images.logo} alt='logo' />
             </div>
             <ul className={this.state.isMenuActive ? 'nav-items active' : 'nav-items'}>
-                <li><Link onClick={() => this.setState({isMenuActive: !this.state.isMenuActive})} to='/'>Početna</Link></li>
-                <li><Link onClick={() => this.setState({isMenuActive: !this.state.isMenuActive})} to='/onama'>O nama</Link></li>
-                <li><Link onClick={() => this.setState({isMenuActive: !this.state.isMenuActive})} to='/galerija'>Galerija</Link></li>
-                <li><Link onClick={() => this.setState({isMenuActive: !this.state.isMenuActive})} to='/'>Events</Link></li>
-                <li><Link onClick={() => this.setState({isMenuActive: !this.state.isMenuActive})} to='/lokacija'>Lokacija</Link></li>
-                <li><Link onClick={() => this.setState({isMenuActive: !this.state.isMenuActive})} to='/kontakt'>Kontakt</Link></li>
+                <li><a href='#pocetna' onClick={() => this.setState({isMenuActive: !this.state.isMenuActive})}>Početna</a></li>
+                <li><a href='#onama' onClick={() => this.setState({isMenuActive: !this.state.isMenuActive})} >O nama</a></li>
+                <li><a href='#galerija' onClick={() => this.setState({isMenuActive: !this.state.isMenuActive})} >Galerija</a></li>
+                <li><a href='#pocetna' onClick={() => this.setState({isMenuActive: !this.state.isMenuActive})}>Events</a></li>
+                <li><a href='#lokacija' onClick={() => this.setState({isMenuActive: !this.state.isMenuActive})}>Lokacija</a></li>
+                <li><a href='#kontakt' onClick={() => this.setState({isMenuActive: !this.state.isMenuActive})}>Kontakt</a></li>
             </ul>
             <ul className={this.state.isMenuActive ? 'nav-items-basterd active' : 'nav-items-basterd'}>
-                <li><Link to='/meni'>Meni</Link></li>
+                <li><a href='#meni' onClick={() => this.setState({isMenuActive: !this.state.isMenuActive})}>Meni</a></li>
             </ul>
             <div className='hamburger'>
               {

@@ -32,6 +32,11 @@
     color: var(--color-white);
 }
 
+.top-nav-holder-left-side-phone a {
+    text-decoration: none;
+    color: var(--color-white);
+}
+
 .icons-top-nav {
     font-size: 1.3rem;
 }
