@@ -4,8 +4,6 @@ import TopNav from './components/layout/TopNav';
 import Navbar from './components/layout/Navbar';
 import Footer from './components/layout/Footer';
 
-
-
 import Home from './components/Home';
 import OnamaHolderComponent from './components/OnamaHolderComponent';
 import Gallery from './components/Gallery';
