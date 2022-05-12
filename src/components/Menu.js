@@ -1,9 +1,10 @@
 import React, { Component } from 'react';
-import MenuMenu from './MenuMenu';
+// import MenuMenu from './MenuMenu';
 import MenuCards from './MenuCards';
 import MenuText from './MenuText';
 
 import './Menu.css'
+import DownloadMenu from './DownloadMenu';
 
 
  class Menu extends Component {
@@ -11,8 +12,9 @@ import './Menu.css'
     return (
       <div className='Menu' id='meni'>
           <MenuText />
-          <MenuCards />
-          <MenuMenu />
+          <DownloadMenu />
+          {/* <MenuCards /> */}
+          {/* <MenuMenu /> */}
       </div>
     )
   }

@@ -2,7 +2,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url(../assets/bannerLayer3.jpg);
+    background-image: url('https://scontent.fbeg2-1.fna.fbcdn.net/v/t39.30808-6/280365218_5712334305449443_6851206954610017022_n.jpg?_nc_cat=101&ccb=1-6&_nc_sid=0debeb&_nc_ohc=uLqwQRdkg_kAX_pSF0C&_nc_ht=scontent.fbeg2-1.fna&oh=00_AT_nbtks8KDTaOcGkvZV1tc9eq2Ld8m-ZDSEg-86FzssNA&oe=62817F00');
     background-position: center;
     background-size: cover;
     padding: 10rem 0 10rem 0;

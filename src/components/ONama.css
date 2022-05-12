@@ -34,26 +34,26 @@
 }
 
 .card1 {
-    background-image: url(../assets/about1.jpg);
+    background-image: url('https://scontent.fbeg2-1.fna.fbcdn.net/v/t39.30808-6/280423698_5712342142115326_6507189378020834721_n.jpg?_nc_cat=101&ccb=1-6&_nc_sid=0debeb&_nc_ohc=6TxBHzuLejoAX9SD1a3&_nc_ht=scontent.fbeg2-1.fna&oh=00_AT9mrGFwlhhbc7nGu4-Tx18Byn14lSv7GP5qQ5byZdJ9pw&oe=6282CCAF');
     background-position: center;
     background-size: cover;
 }
 
 .card2 {
-    background-image: url(../assets/about2.jpg);
+    background-image: url('https://scontent.fbeg2-1.fna.fbcdn.net/v/t39.30808-6/280713574_5712342188781988_4349324800824055863_n.jpg?_nc_cat=103&ccb=1-6&_nc_sid=0debeb&_nc_ohc=jxhLVevqJYUAX-ByySc&_nc_ht=scontent.fbeg2-1.fna&oh=00_AT-yQaSt4kDE8F1gVFsCfoYyYrufHalu_S2bPM0EWWRQFQ&oe=62827F23');
     background-position: center;
     background-size: cover;
     transform: translateY(-2rem);
 }
 
 .card3 {
-    background-image: url(../assets/about3.jpg);
+    background-image: url('https://scontent.fbeg2-1.fna.fbcdn.net/v/t39.30808-6/280724617_5712342158781991_78719441492389989_n.jpg?_nc_cat=100&ccb=1-6&_nc_sid=0debeb&_nc_ohc=IdY15L8DUCIAX-YOznz&_nc_ht=scontent.fbeg2-1.fna&oh=00_AT8MPMz6RYki3BxfS0I4TSg5tptycaSXRMbvSzXxxJi-8g&oe=6282421C');
     background-position: center;
     background-size: cover;
 }
 
 .card4 {
-    background-image: url(../assets/about4.jpg);
+    background-image: url('https://scontent.fbeg2-1.fna.fbcdn.net/v/t39.30808-6/280546845_5712342162115324_1990387617892091785_n.jpg?_nc_cat=101&ccb=1-6&_nc_sid=0debeb&_nc_ohc=EKDlgrsppfUAX910KL3&_nc_ht=scontent.fbeg2-1.fna&oh=00_AT8Esvl49tRY_C1l2-ANkoeGyAD_u81-U1-_d8rIRBFy9w&oe=6281A279');
     background-position: center;
     background-size: cover;
     transform: translateY(-2rem);

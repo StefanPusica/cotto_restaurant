@@ -31,8 +31,8 @@ function App() {
               <OnamaHolderComponent />
               <Gallery />
               <Location />
-              <Contact />
               <Menu />
+              <Contact />
           <Footer /> 
           <a href='#top'>
             <div className='modal-button-up'>

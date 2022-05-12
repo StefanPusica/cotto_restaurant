@@ -1,126 +1,87 @@
 .Gallery {
-    padding: 4rem 0rem;
-    background-color: var(--color-high-red);
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 0 0 5rem 0;
-    position: relative;
+  padding: 4rem 0rem;
+  background-color: var(--color-high-red);
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 0 5rem 0;
+  position: relative;
 }
 
 .gallery-holder {
-    width: 90%;
-    display: grid;
-    grid-template-columns: auto;
-    grid-template-rows: auto;
-    padding: 5rem 0 5rem 0;
-    gap: 1.5rem;
-    grid-template-areas: 
-        'img-1 img-1 img-2 img-3 img-3'
-        'img-1 img-1 img-4 img-3 img-3'
-    ;
-}
-
-.gallery-holder img:hover {
-    cursor: pointer;
-    /* transform: scale(1.05); */
-}
-
-.img-1{
-    grid-area: img-1;
     width: 100%;
-}
-
-.img-2{
-    grid-area: img-2;
-    width: 100%;
-}
-
-.img-3{
-    grid-area: img-3;
-    width: 100%;
-}
-
-.img-4{
-    grid-area: img-4;
-    width: 100%;
-}
-
-/* Modal */
-
-.gallery-modal {
-    display: none;
-}
-
-.gallery-modal.on  {
     display: flex;
-    position: absolute;
-    width: 100%;
-    height: 100vh;
-    background-color: rgba(0, 0, 0, 0.8);
-    top: 0;
-    left: 0;
-    display: flex;
-    align-items: center;
     justify-content: center;
-    gap: 2rem;
-    z-index: 100;
+    align-items: center;
+    margin-top: 4rem;
 }
 
-.gallery-modal.on .modal-img {
-    width: 50rem;
-    height: 2=40rem;
-    border-radius: 5px;
+.swiper-holder {
+    position: relative;
 }
 
-.gallery-modal.on .modal-img img {
-    width: 100%;
-    height: 100%;
+.gallery-slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.gallery-holder img {
+    width: 30%;
     border-radius: 10px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
-.gallery-arrows {
-    font-size: 5rem;
-    color: var(--color-orange1);
-}
-
-.close-modal {
+.call {
+    top: 10vh;
     position: absolute;
-    top: 2rem;
-    right: 2rem;
+    background-image: url('../assets/ring.png');
+    background-position: center;
+    background-size: cover;
+    height: 25rem;
+    width: 25rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+
+    font-size: 1.4rem;
+    color: var(--color-orange1);
+    font-weight: 300;
 }
 
-
-.close-modal-icon {
-    font-size: 3rem;
-    color: var(--color-white);
+.call.call-to-right {
+    right: 0;
 }
 
-.close-modal-icon:hover {
-    cursor: pointer;
-}
-
-@media screen and (max-width: 1100px) {
-    .gallery-holder {
-        gap: 0.5rem;
+@media screen and (max-width: 1000px) {
+    .call {
+        display: none;
     }
 }
 
-@media screen and (max-width: 600px) {
-    .gallery-holder {
-        grid-template-areas: 
-        'img-1 img-1 img-2 img-2 '
-        'img-3 img-3 img-4 img-4 '
-    ;
+@media screen and (max-width: 850px) {
+    .gallery-holder img {
+        width: 45%;
+        border-radius: 10px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .gallery-holder img {
+        width: 50%;
+        border-radius: 10px;
     }
 
-    .gallery-modal.on{
-        gap: 1rem;
+    .swiper-pagination-fraction, .swiper-pagination-custom, .swiper-container-horizontal > .swiper-pagination-bullets {
+        display: none;
     }
+}
 
-    .close-modal {
-        top: 1rem;
-        right: 1rem;
+@media screen and (max-width: 350px) {
+    .gallery-holder img {
+        width: 60%;
+        border-radius: 10px;
     }
 }

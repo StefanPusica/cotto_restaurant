@@ -7,7 +7,7 @@ import ONamaPart2 from './ONamaPart2';
     return (
       <div id='onama'>
           <ONama />
-          <ONamaPart2 />
+          {/* <ONamaPart2 /> */}
       </div>
     )
   }

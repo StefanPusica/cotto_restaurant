@@ -6,7 +6,7 @@ import './MenuText.css';
  class MenuText extends Component {
   render() {
     return (
-      <div className='MenuText'>
+      <div className='MenuText' id='BuonAppetito'>
         <h1 className='menu-header'>Za potpuni užitak</h1>
         <p className='menu-describe-text'> - Uživajte u sveže spremljenim specijalitetima svakog dana </p>
         <div className='MenuText-line'>
