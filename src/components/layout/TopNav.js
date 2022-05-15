@@ -23,8 +23,9 @@ export default function TopNav() {
                 </div>
                 <div className='top-nav-holder-right-side'>
                     <div className='top-nav-holder-right-side-instagram'>
-                        <IoLogoInstagram className='icons-top-nav' />
-                        <FaFacebookF />
+                        <a href='https://www.instagram.com/cotto_restoran/' className='top-nav-holder-right-side-instagram-a'>
+                            <IoLogoInstagram className='icons-top-nav' />
+                        </a>
                     </div>
                 </div>
             </div>

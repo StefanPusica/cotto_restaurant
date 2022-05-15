@@ -32,6 +32,10 @@
     color: var(--color-white);
 }
 
+.top-nav-holder-right-side-instagram a {
+    color: #fff
+}
+
 .top-nav-holder-left-side-phone a {
     text-decoration: none;
     color: var(--color-white);
