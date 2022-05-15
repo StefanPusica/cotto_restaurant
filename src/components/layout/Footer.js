@@ -19,7 +19,7 @@ export default class Footer extends Component {
                     <h3>Kontaktirajte nas</h3>
                     <div className='footer-left-place'>
                         <IoLocationOutline />
-                        <p>Bulevar Vudro Vilsona 12,, Beograd</p>
+                        <p>Bulevar Vudro Vilsona 12, Beograd</p>
                     </div>
                     <div className='footer-left-call'>
                         <IoCallOutline />
@@ -46,7 +46,7 @@ export default class Footer extends Component {
                     <div className='footer-right-work-time-Pet-Ned'>
                         <div className='footer-right-work-time1'>
                             <IoTimeOutline />
-                            <p>Ponedeljak - Petak</p>
+                            <p>Subota - Nedelja</p>
                         </div>
                         <p>10:00h - 22:00h</p>
                     </div>
