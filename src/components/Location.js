@@ -29,7 +29,7 @@ import { IoTimeOutline } from "react-icons/io5";
                     <IoLocationOutline className='location-icon-group' />
                 </div>
                 <div className='location-card l-card-2'>
-                    <p className='location-card-text'>064555555</p>
+                    <p className='location-card-text'>+381 69 4455451</p>
                     <IoCallOutline className='location-icon-group' />
                 </div>
                 <div className='location-card l-card-3'>

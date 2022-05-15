@@ -17,8 +17,8 @@ export default function TopNav() {
                         <p>10:00h - 22:00h</p>
                     </div>
                     <div className='top-nav-holder-left-side-phone'>
-                        <a href='tel:064555555'><IoCallOutline className='icons-top-nav' /></a>
-                        <a href='tel:064555555'><p>064555555</p></a>
+                        <a href='tel:+381 69 4455451'><IoCallOutline className='icons-top-nav' /></a>
+                        <a href='tel:+381 69 4455451'><p>+381 69 4455451</p></a>
                     </div>
                 </div>
                 <div className='top-nav-holder-right-side'>
