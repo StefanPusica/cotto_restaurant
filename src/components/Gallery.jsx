@@ -61,6 +61,8 @@ function Gallery() {
                 ))}
                 <div className="call call-to-right">
                     <p className='drag drag-right'>Prevuci na desno</p>
+                    
+                    {/* <img src='https://previews.dropbox.com/p/thumb/ABgBaGhGerma3liZDobJYDhZ5Y2b2X7_qgWFQ89ieGOfQJ4Cc2kBdIQojFpobw_05W5si1u6h4RaAETLIKM1y4-Pb6vVOtGmZ0LMlOIXFjHI0v_zgJE_b43UfM0s6lD_O1epmOrBjv6rYppZOqaSv_rxBpbluE2yM9KE4LwxoV-aqHiXxqCAcYcs-zUmV_wy45l-QOZQIpX2oAN_sUE8dVDy41hXXolgmMLrvP5MKTSzh89hKz1qzIcYj-4imG0rf0Iftoj9uSH30M40LHHkOjq9BmtQUJ1QNbmZKOAjMBIL5KEc-UtG_a7d1rKz9dLks1hfut3sh7nsBEAG_pyN9Ni__aS0HNucDXrkOEbbRpMzCyr0bl-rzd7G3OXYtwiPeIERSPq5bOdRm37nxt833F6uI4GxE3JC_rSwZHlUY7Zx9flQzVgI0kSYmyzPYUQYfsWsbPLy0mOEiysKrT9YFwgaVjVenqxRl2sG0NIU9ZlsuLRHSPp3xhCQTIuh8RB7ga8lhOiOqc7XatN_Fl_auOc-JJriaJzQXjbc05-UFO2KY3B5PHpG_vsnZlZrwZtwTz_R7zMCwVCAkAi79yuotVYcnLJkUedQA_soUdPNU7SicyWyZOfXFZ5G05_xoa31CrM/p.jpeg' alt='#' /> */}
                 </div>
             </Swiper>
           </div>
