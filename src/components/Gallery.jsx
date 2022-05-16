@@ -43,7 +43,7 @@ function Gallery() {
     })
 
     if (loading) {
-        return <p>Sacekajte</p>
+        return <img src='../assets/loader.gif' alt='#' />
     }
 
   return (

@@ -47,7 +47,7 @@ export default class Footer extends Component {
                         <div className='footer-right-work-time1'>
                             <IoTimeOutline />
                             <p>Subota - Nedelja</p>
-                        </div>
+                         </div>
                         <p>10:00h - 22:00h</p>
                     </div>
                 </div>
