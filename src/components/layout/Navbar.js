@@ -21,7 +21,7 @@ class Navbar extends Component {
             <ul className={this.state.isMenuActive ? 'nav-items active' : 'nav-items'}>
                 <li><a href='#pocetna' onClick={() => this.setState({isMenuActive: !this.state.isMenuActive})}>Početna</a></li>
                 <li><a href='#onama' onClick={() => this.setState({isMenuActive: !this.state.isMenuActive})} >O nama</a></li>
-                <li><a href='#galerija' onClick={() => this.setState({isMenuActive: !this.state.isMenuActive})} >Galerija</a></li>
+                <li><a href='#Gallery' onClick={() => this.setState({isMenuActive: !this.state.isMenuActive})} >Galerija</a></li>
                 <li><a href='#pocetna' onClick={() => this.setState({isMenuActive: !this.state.isMenuActive})}>Events</a></li>
                 <li><a href='#lokacija' onClick={() => this.setState({isMenuActive: !this.state.isMenuActive})}>Lokacija</a></li>
                 <li><a href='#kontakt' onClick={() => this.setState({isMenuActive: !this.state.isMenuActive})}>Kontakt</a></li>

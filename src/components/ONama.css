@@ -34,26 +34,26 @@
 }
 
 .card1 {
-    background-image: url('https://lh3.google.com/u/0/d/1NbqeKyLQclvuSE-_v0R7G477RstgzllU=w3000-h6486-iv1');
+    background-image: url('../assets/about1.jpg');
     background-position: center;
     background-size: cover;
 }
 
 .card2 {
-    background-image: url('https://lh3.google.com/u/0/d/1axyemyad5X6PRyf1pDr9ellkhDhG40Jv=w3000-h6486-iv1');
+    background-image: url('../assets/about2.jpg');
     background-position: center;
     background-size: cover;
     transform: translateY(-2rem);
 }
 
 .card3 {
-    background-image: url('https://lh3.google.com/u/0/d/1-u8wRPywKDh2TUauy1MJAZ16kYY0hS9V=w3000-h6486-iv1');
+    background-image: url('../assets/about3.jpg');
     background-position: center;
     background-size: cover;
 }
 
 .card4 {
-    background-image: url('https://lh3.google.com/u/0/d/1G-LKWt_mbdSWhH_0m95PdxkMc_EN7lkh=w2000-h1258-iv1');
+    background-image: url('../assets/about4.jpg');
     background-position: center;
     background-size: cover;
     transform: translateY(-2rem);

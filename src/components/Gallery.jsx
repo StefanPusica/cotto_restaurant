@@ -47,7 +47,7 @@ function Gallery() {
     }
 
   return (
-    <div className='Gallery'>
+    <div className='Gallery' id='Gallery'>
           <h1 className='page-heading' onClick={() => console.log(listing)}>Galerija</h1>
           <div className='gallery-holder'>
             <Swiper slidesPerView={1} pagination={{clickable: true}} className='swiper-holder'>
