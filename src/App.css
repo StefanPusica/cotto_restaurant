@@ -1,7 +1,7 @@
 .home-background {
-    background-image: url('https://lh3.googleusercontent.com/dVGOzkk_ctRkqCm2CYglcf4xNoFIU2yHFZm7tY66w5N4BwWPMwqZJik69yOx2599-J-_-57z9Ktw38tl_E920eXa3HOLGpsw1felr8qCv3nGzwSP0XJFBEDCBNRYRtp4w219b1fm-tXU57cFCpevJ-hPVuxPYA2sAxoXa0vuLzlvAz67EAalkONndNifWARbS5--nn-5q0FplAKFQEv3ttCF1EZ9S3w1sgmGXev-tlt8JY49RcUgu6PTdXTFISmWfjBMTKvVEFAcVAPtZJbsaHvLTNaHrNdVRm5cMh7CGZmW4IVfICbJN9g16oxiuEwnNRrmuoaoE5JlOuh_W_rQszVQjJBx9LPOm7qQ3TCB9zj2GuazKOQs9qB385lWI7oWb_cBlOfbEfBM9IqfLW2kqnOFZQYcXq901iPazNCGR1Mk5FJVw7GpQ4lpxK3Ur4BAXozFBow3rQtTka9Uyer-WoeUsFlgtffHZ2WPkGLFY8xMxp70HkmL0_M90jMy0fqmUdBVNoeMcdq4BZXYs5bAg-_M7l8gz3ENZcVSpXXF1D59NSZAKSAyXpJhpNAeTjNThnXmvhnb1zHYByvykReuetPvsVMeylZ4pAPPEmSUTvpGEw2ZVnQbPMKCeTwxQL9O4vC3ayE3cTRgH6FVNlr2cecpLeW1SX37d4WKyrz9eYgBdVmTxE7t7U4C9FDa5xrdD88e0LD2ttH1-NAV3ZsTO53IyLHR6Hqq0R1BbPUntgSY-Vj5oXmlobCpd0iuOIZzn1tD21CQT6qqPVF63GiwsA4rjDfpzyLaL14IE_XJuQfUsDuK-5LekrPqDEjsaRuuUhJN=w1354-h903-no?authuser=0');
-    background-size: cover;
-    background-position: center;
+  background-image: url("https://lh3.googleusercontent.com/dVGOzkk_ctRkqCm2CYglcf4xNoFIU2yHFZm7tY66w5N4BwWPMwqZJik69yOx2599-J-_-57z9Ktw38tl_E920eXa3HOLGpsw1felr8qCv3nGzwSP0XJFBEDCBNRYRtp4w219b1fm-tXU57cFCpevJ-hPVuxPYA2sAxoXa0vuLzlvAz67EAalkONndNifWARbS5--nn-5q0FplAKFQEv3ttCF1EZ9S3w1sgmGXev-tlt8JY49RcUgu6PTdXTFISmWfjBMTKvVEFAcVAPtZJbsaHvLTNaHrNdVRm5cMh7CGZmW4IVfICbJN9g16oxiuEwnNRrmuoaoE5JlOuh_W_rQszVQjJBx9LPOm7qQ3TCB9zj2GuazKOQs9qB385lWI7oWb_cBlOfbEfBM9IqfLW2kqnOFZQYcXq901iPazNCGR1Mk5FJVw7GpQ4lpxK3Ur4BAXozFBow3rQtTka9Uyer-WoeUsFlgtffHZ2WPkGLFY8xMxp70HkmL0_M90jMy0fqmUdBVNoeMcdq4BZXYs5bAg-_M7l8gz3ENZcVSpXXF1D59NSZAKSAyXpJhpNAeTjNThnXmvhnb1zHYByvykReuetPvsVMeylZ4pAPPEmSUTvpGEw2ZVnQbPMKCeTwxQL9O4vC3ayE3cTRgH6FVNlr2cecpLeW1SX37d4WKyrz9eYgBdVmTxE7t7U4C9FDa5xrdD88e0LD2ttH1-NAV3ZsTO53IyLHR6Hqq0R1BbPUntgSY-Vj5oXmlobCpd0iuOIZzn1tD21CQT6qqPVF63GiwsA4rjDfpzyLaL14IE_XJuQfUsDuK-5LekrPqDEjsaRuuUhJN=w1354-h903-no?authuser=0");
+  background-size: cover;
+  background-position: center;
 }
 
 /* .navigation {
@@ -11,90 +11,90 @@
 }  */
 
 .page-heading {
-    padding-top: 3rem;
-    color: var(--color-orange1);
-    font-size: 4rem;
-    text-align: center;
-    font-weight: 300;
+  padding-top: 3rem;
+  color: var(--color-orange1);
+  font-size: 4rem;
+  text-align: center;
+  font-weight: 300;
 }
 
 .describe-text {
-    font-size: 1.2rem;
-    font-weight: 300;
-    font-style: italic;
-    letter-spacing: 0;
-    text-align: center;
-    color: var(--color-orange1);
-    margin-bottom: 2rem;
+  font-size: 1.2rem;
+  font-weight: 300;
+  font-style: italic;
+  letter-spacing: 0;
+  text-align: center;
+  color: var(--color-orange1);
+  margin-bottom: 2rem;
 }
 
 .modal-button-up {
-    position: fixed;
-    bottom: 5rem;
-    left: 5rem;
+  position: fixed;
+  bottom: 5rem;
+  left: 5rem;
 
-    width: 4rem;
-    height: 4rem;
-    background-color: #421919bd;
-    border-radius: 50%;
+  width: 4rem;
+  height: 4rem;
+  background-color: #421919bd;
+  border-radius: 50%;
 
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 
 .modal-whats-app {
-    position: fixed;
-    bottom: 5rem;
-    right: 5rem;
+  position: fixed;
+  bottom: 5rem;
+  right: 5rem;
 
-    width: 4rem;
-    height: 4rem;
-    background-color: #25D366;
-    border-radius: 50%;
+  width: 3.9rem;
+  height: 3.9rem;
+  background-color: #25d366;
+  border-radius: 50%;
 
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-    border: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  border: 0;
 }
 
 .modal-button-up-icons {
-    font-size: 2.3rem;
-    color: var(--color-orange1);
+  font-size: 2.3rem;
+  color: var(--color-orange1);
 }
 
 .modal-whats-app-icons {
-    font-size: 2.3rem;
-    color: var(--color-white);
+  font-size: 2.3rem;
+  color: var(--color-white);
 }
 
 .modal-whats-app-icons:hover {
-    cursor: pointer;
+  cursor: pointer;
 }
 
 @media screen and (max-width: 900px) {
-    .modal-button-up {
-        width: 3rem;
-        height: 3rem;
-        bottom: 3rem;
-        left: 2rem;
-    }
+  .modal-button-up {
+    width: 3rem;
+    height: 3rem;
+    bottom: 3rem;
+    left: 2rem;
+  }
 
-    .modal-button-up-icons {
-        font-size: 1.8rem;
-    }
+  .modal-button-up-icons {
+    font-size: 1.8rem;
+  }
 
-    .modal-whats-app {
-        width: 3rem;
-        height: 3rem;
-        bottom: 3rem;
-        right: 2rem;
-    }
+  .modal-whats-app {
+    width: 3rem;
+    height: 3rem;
+    bottom: 3rem;
+    right: 2rem;
+  }
 
-    .modal-whats-app-icons {
-        font-size: 1.8rem;
-    }
+  .modal-whats-app-icons {
+    font-size: 1.8rem;
+  }
 }
